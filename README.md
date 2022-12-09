@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/Logo.jpg" alt="Elsa Bot Logo">
+  <img src="assets/Elsa-Bot.png" alt="Elsa Bot Logo">
 </p>
 <h1 align="center">
   <b> Elsa Bot </b>
