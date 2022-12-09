@@ -1,13 +1,13 @@
 {
-    "name": "LazyPrincess",
-    "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
+    "name": "Elsa adrelle",
+    "description": "Advanced Auto & Manual Filter Bot With Lots Of Features",
     "stack": "container",
     "keywords": [
       "telegram",
       "auto-filter",
-      "filter",
-      "best",
-      "indian",
+      "Bot",
+      "by",
+      "Private-Botz",
       "pyrogram",
       "media",
       "search",
@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/LazyDeveloperr/LazyPrincess",
-    "repository": "https://github.com/LazyDeveloperr/LazyPrincess",
+    "website": "https://github.com/Private-Botz/Elsa-Bot",
+    "repository": "https://github.com/Private-Botz/Elsa-Bot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
