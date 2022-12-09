@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/lazyprincessbot.jpg" alt="Lazy Princess Logo">
+  <img src="assets/Logo.jpg" alt="Elsa Bot Logo">
 </p>
 <h1 align="center">
-  <b> Lazy Princess BOT </b>
+  <b> Elsa Bot </b>
 </h1>
 
 ## ⚡️Features
@@ -24,7 +24,7 @@
 - [x] File Store
 ## Variables
 
-Read [this](https://telegram.dog/LazyDevelopers/8) before you start messing up with your edits.
+Read [this](https://t.me/Private_botz/21) before you start messing up with your edits.
 
 ### Required Variables
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
@@ -38,7 +38,7 @@ Read [this](https://telegram.dog/LazyDevelopers/8) before you start messing up w
 ### Optional Variables
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
-* Check [info.py](https://github.com/LazyDeveloperr/LazyPrincess/blob/master/info.py) for more
+* Check [info.py](https://github.com/Private-Botz/Elsa-Bot/blob/master/info.py) for more
 
 
 ## Deploy
@@ -60,7 +60,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/LazyDeveloperr/LazyPrincess
+git clone https://github.com/Private-Botz/Elsa-Bot
 # Install Packages
 pip3 install -U -r requirements.txt
 Edit info.py with variables as given below then run bot
@@ -99,8 +99,8 @@ python3 bot.py
 • /link - to create link for one post
 ```
 ## Support
-[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/LazyPrincessSupport)
-[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/LazyDeveloper)
+[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/Private_botz)
+[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/adwin_mosses)
 
 ## Credits 
 * [![LazyPrincess-Devs](https://img.shields.io/static/v1?label=LazyPrincess&message=devs&color=critical)](https://telegram.dog/LazyDeveloper)
@@ -114,9 +114,9 @@ python3 bot.py
 
 ### Note
 
-[Join Main Channel](https://telegram.dog/LazyDeveloper): LazyDeveloper
+[Join Main Channel](https://telegram.dog/Private_Botz): Private Botz
 
 ## Disclaimer
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-Licensed under [GNU AGPL 2.0.](https://github.com/LazyDeveloperr/LazyPrincess/blob/master/LICENSE)
+Licensed under [GNU AGPL 2.0.](https://github.com/Private-Botz/Elsa-Bot/blob/master/LICENSE)
 Selling The Codes To Other People For Money Is *Strictly Prohibited*.
