@@ -1,1 +1,1 @@
-web: python3 bot.py
+web: python-3.10.9
