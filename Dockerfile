@@ -1,4 +1,4 @@
-FROM python-3.10.9
+FROM python3 bot.py
 
 RUN apt update && apt upgrade -y
 RUN apt install git -y
