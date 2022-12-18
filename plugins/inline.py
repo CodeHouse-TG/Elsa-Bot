@@ -10,11 +10,8 @@ logger = logging.getLogger(__name__)
 cache_time = 0 if AUTH_USERS or AUTH_CHANNEL else CACHE_TIME
 
 async def inline_users(query: InlineQuery):
-    if AUTH_USERS:
-        if query.from_user and query.from_user.id in AUTH_USERS:
-            return True
-        else:
-            return False
+    if AUTH_USERS and query.from_user and query.from_user.id in AUTH_USERS:
+        return True
     if query.from_user and query.from_user.id not in temp.BANNED_USERS:
         return True
     return False
@@ -26,14 +23,14 @@ async def answer(bot, query):
     if not await inline_users(query):
         await query.answer(results=[],
                            cache_time=0,
-                           switch_pm_text='Results',
+                           switch_pm_text='okDa',
                            switch_pm_parameter="hehe")
         return
 
     if AUTH_CHANNEL and not await is_subscribed(bot, query):
         await query.answer(results=[],
                            cache_time=0,
-                           switch_pm_text='You have to subscribe main channel to use the bot',
+                           switch_pm_text='You have to subscribe my channel to use the bot',
                            switch_pm_parameter="subscribe")
         return
 
@@ -88,6 +85,10 @@ async def answer(bot, query):
             pass
         except Exception as e:
             logging.exception(str(e))
+            await query.answer(results=[], is_personal=True,
+                           cache_time=cache_time,
+                           switch_pm_text=str(e)[:63],
+                           switch_pm_parameter="error")
     else:
         switch_pm_text = f'{emoji.CROSS_MARK} No results'
         if string:
@@ -107,7 +108,4 @@ def get_reply_markup(query):
         ]
         ]
     return InlineKeyboardMarkup(buttons)
-
-
-
 
